@@ -12,7 +12,7 @@ import javax.persistence.Table;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
-//Course
+
 @Entity
 @Table(name = "student_course_tbl")
 public class CourseRegistration {
